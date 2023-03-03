@@ -1,0 +1,160 @@
+.overlay {
+  height: 100%;
+  background: rgba(250, 250, 250, 0.5);
+  z-index: 2;
+  max-width: 100vw;
+  width: 100%;
+  
+}
+
+.main-page-content
+{
+  font-family: fantasy;
+  width: 80%;
+  margin: 20px auto;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: url("pizza-3007395__480.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+}
+body {
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1eaead3;
+  }
+  
+  header {   
+    background-color: #333;
+    color: white;
+    padding: 1em;
+  }
+
+  .menu-items{
+    display: flex; 
+    flex-direction: row;
+  }
+  img{
+    width: 100%;
+  }
+
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-item {
+    flex: 1 1 250px;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffe78f;
+    border-radius: 25px;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .menu-item img {
+    max-width: 100%;
+    max-height: 250px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .menu-item:hover {
+    transform: scale(1.1); /* Size scale när man hover över item */
+    z-index: 1; /* För det svävade objektet i förgrunden */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Lägger till en shadowbox för mer djup */
+  }
+   nav {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover {
+    color: #ff0;
+  }
+  
+  
+  .about-restaurant {
+    padding: 2em;
+  }
+  
+  .about-restaurant h2 {
+    text-align: center;
+  }
+  
+  .about-restaurant p {
+    text-align: justify;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    }
+
+    .fa-square-envelope, .fa-instagram {
+      font-size: 2em;
+    }
+
+    form {
+      padding-top: 50px; 
+    }
+
+    :root {
+      --primary-color: #007bff; /* definierar variable for primär färg */
+      --secondary-color: #6c757d; /* definierar variable för sekundär färg */
+    }
+
+    .header {
+      background-color: var(--primary-color);
+      color: var(--secondary-color);
+    }
+    
+    .btn-primary {
+      background-color: var(--primary-color);
+      color: #fff;
+    }
+    
+    .btn-secondary {
+      background-color: var(--secondary-color);
+      color: #fff;
+    }
+    
+

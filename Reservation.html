@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+             <li><a href="Homepage.html">Hem</a></li>
+            <li><a href="Meny.html">Meny</a></li>
+            <li><a href="Reservation.html">Reservation</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="grid-container">
+          <form action="book_table.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br>
+
+            <button type="submit">Send</button>
+          </form>
+      </div>
+    
+</body>
+</html>
